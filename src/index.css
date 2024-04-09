@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.interaction-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.speech-to-sign, .sign-to-speech {
+  flex-basis: 45%;
+}
+
+.App-footer {
+  background-color: #282c34;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.input {
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+  flex: 1;
+  padding: 8px;
+}
+
+.button {
+  padding: 8px;
+  margin: 8px;
+  border: black;
+  border-width: 1px;
+  background-color: #00AA9D;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.row-container {
+  margin: 8px;
+  display: flex;
+}
